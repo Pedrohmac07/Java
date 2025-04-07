@@ -2,7 +2,7 @@ package maratona.javacore.Aintroclasses.test;
 
 import maratona.javacore.Aintroclasses.domain.Student;
 
-public class StudentTeste02 {
+public class StudentTest02 {
     public static void main(String[] args) {
         Student student = new Student();
 
