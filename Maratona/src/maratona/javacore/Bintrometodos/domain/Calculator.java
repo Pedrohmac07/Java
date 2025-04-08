@@ -26,4 +26,20 @@ public class Calculator {
         System.out.println("Alterando numeros...");
         System.out.println("n1 = " + n1 + ", n2 = " + n2);
     }
+
+    public void sumArray(int[] nums) {
+        int sum = 0;
+        for (int num:nums) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumArrayArgs(int... nums) {
+        int sum = 0;
+        for (int num:nums) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
 }
